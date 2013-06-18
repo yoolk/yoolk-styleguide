@@ -1,29 +1,28 @@
-# Yoolk::Style::Guide
+# Yoolk::StyleGuide
 
-TODO: Write a gem description
+A mountable Rails engine where you can view yoolk internal styleguide.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+The simplest way to install is to use Bundler.
 
-    gem 'yoolk-style-guide'
+Add ths gem to your Gemfile:
 
-And then execute:
+    group :development do
+      gem 'yoolk-styleguide', git: 'git://github.com/yoolk/yoolk-styleguide.git'
+    end
 
-    $ bundle
+Then, use Bundler to install the gem and its dependencies:
 
-Or install it yourself as:
+    $ bundle install
 
-    $ gem install yoolk-style-guide
+## Authors
 
-## Usage
+* [Vorleak Chy](https://github.com/vorleakchy)
+* [Chamnap Chhorn](https://github.com/chamnap)
 
-TODO: Write usage instructions here
+## Contributors
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+* [Sinal Meas](https://github.com/meassinal)
+* [Victory Someth](https://github.com/somethvictory)
+* [Vuthy San](https://github.com/sanvuthy)

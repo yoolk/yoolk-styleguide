@@ -6,8 +6,8 @@ require 'yoolk/styleguide/version'
 Gem::Specification.new do |spec|
   spec.name          = "yoolk-styleguide"
   spec.version       = Yoolk::Styleguide::VERSION
-  spec.authors       = ["chamnap"]
-  spec.email         = ["chamnapchhorn@gmail.com"]
+  spec.authors       = ["vorleak", "chamnap"]
+  spec.email         = ["vorleak.chy@gmail.com", "chamnapchhorn@gmail.com"]
   spec.description   = %q{TODO: Write a gem description}
   spec.summary       = %q{TODO: Write a gem summary}
   spec.homepage      = ""
