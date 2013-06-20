@@ -1,3 +1,5 @@
+require 'bootstrap-sass'
+
 module Yoolk
   module Styleguide
     class Engine < ::Rails::Engine

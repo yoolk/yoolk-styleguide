@@ -1,6 +1,6 @@
 module Yoolk
   module Styleguide
-    class HomeController < ::ApplicationController
+    class HomeController < ApplicationController
       def index
       end
     end
