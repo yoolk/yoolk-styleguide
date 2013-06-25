@@ -3,13 +3,54 @@
 // --------------------------------------------------
 
 
+
 // Global values
 // --------------------------------------------------
+
+
+// Colors
+// -------------------------
+$yoolkGrayDark: #111;
+$yoolkGrayLight: #707070;
+$yoolkBorderColor: #eee;
+$yoolkNewItemColor: #cc0001;
+$yoolkTableHeadColor: #fcfcfc;
+$yoolkDisableColor: #d5d5d5;
+
+
+// Misc
+// --------------------------
+$yoolkBackgroundHover: #fff4b3;
+$yoolkHiliteTextColor: $yoolkBackgroundHover;
+
+
+// Scaffolding
+// -------------------------
+$textColor: $yoolkGrayDark;
+
+
+// Links
+// -------------------------
+$linkColor: $yoolkGrayLight;
+$linkColorHover: $linkColor;
+
+
+// Navbar
+// -------------------------
+$navbarBackground: $yoolkThemeMainBackground;
+$navbarBackgroundHighlight: $yoolkThemeMainBackground;
+
+
+// Dropdown
+$dropdownLinkBackgroundHover: #eee;
+$dropdownLinkColorHover: $yoolkGrayDark;
 
 
 // Typography
 // -------------------------
 $baseFontSize:            13px;
+$baseLineHeight:          18px;
+
 
 
 // GRID
