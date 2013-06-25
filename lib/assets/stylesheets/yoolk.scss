@@ -1,6 +1,17 @@
+// Theme colors and variables
 @import "yoolk/themes/default";
 @import "yoolk/variables";
 
 @import "bootstrap";
 
+// Mixins
 @import "yoolk/mixins";
+
+// Page structure
+@import "yoolk/layouts";
+
+// Base CSS
+@import "yoolk/type";
+
+// Components
+@import "yoolk/components";
