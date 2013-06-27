@@ -1,0 +1,11 @@
+ul {
+  list-style-position: inside;
+}
+
+.table {
+  margin-bottom: 9px;
+
+  th {
+    background-color: $yoolkTableHeadColor;
+  }
+}

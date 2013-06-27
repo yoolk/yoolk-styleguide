@@ -1,10 +1,13 @@
-<div class="row">
-  <div class="span4">
-    <ul class="nav nav-list">
-      <li><a href="#tables">Tables</a></li>
+<div class = "row">
+  <div class = "span4">
+    <ul class = "nav nav-list">
+      <li class = "active"><a href = "#tables">Tables</a></li>
     </ul>
   </div>
-  <div class="span20">
-    <%= render 'tables' %>
+  <div class = "span20">
+    <div id = "tables">
+      <%= render "tables_default" %>
+      <%= render "tables_hover" %>
+    </div>
   </div>
 </div>
