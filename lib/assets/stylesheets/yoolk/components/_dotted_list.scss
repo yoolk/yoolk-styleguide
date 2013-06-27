@@ -1,12 +1,10 @@
-$yoolkThemeActiveTextColor: #c60;
-
 ul.dotted-list {
   list-style: none;
   margin: 0;
 
   li {
-    // @include grid-core-span-width(8);
-    background: image-url('dotted_line.png') repeat-x scroll 100% 15px;
+    width: 322px;
+    background: image-url('yoolk/dotted_line.png') repeat-x scroll 100% 15px;
     line-height: 20px;
     position: relative;
     
