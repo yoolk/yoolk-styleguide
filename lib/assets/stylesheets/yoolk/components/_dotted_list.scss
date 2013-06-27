@@ -1,9 +1,9 @@
 ul.dotted-list {
   list-style: none;
   margin: 0;
+  max-width: 322px;
 
   li {
-    width: 322px;
     background: image-url('yoolk/dotted_line.png') repeat-x scroll 100% 15px;
     line-height: 20px;
     position: relative;
@@ -30,7 +30,7 @@ ul.dotted-list {
   }
 }
 
-ul.dotted-list-highlight {
+ul.dotted-list-indicator {
   li:hover {
     border-left: 3px solid $yoolkThemeActiveTextColor;
     font-size: 14px;
@@ -44,4 +44,18 @@ ul.dotted-list-highlight {
       margin-right: -3px;
     }
   }     
+}
+
+ul.dotted-list-highlight {
+  li:hover {
+    background-color: $yoolkBackgroundHover;
+
+    span.type {
+      background-color: $yoolkBackgroundHover;
+    }
+    
+    span.value {
+      background-color: $yoolkBackgroundHover;
+    }
+  }
 }
