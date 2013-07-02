@@ -1,11 +1,24 @@
-ul {
-  list-style-position: inside;
-}
-
 .table {
+
   margin-bottom: 9px;
 
   th {
     background-color: $yoolkTableHeadColor;
+  }
+
+  td.action-fields {
+    min-width:  80px;
+    text-align: right;
+
+    .btn {
+      @include opacity(0.4);
+    }
+  }
+
+}
+
+.table-hover {
+  tr:hover > td.action-fields .btn {
+    @include opacity(1);
   }
 }

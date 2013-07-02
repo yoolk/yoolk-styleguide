@@ -1,13 +1,18 @@
 <div class = "row">
   <div class = "span4">
     <ul class = "nav nav-list">
-      <li class = "active"><a href = "#tables">Tables</a></li>
+      <li><a href = "#tables">Tables</a></li>
     </ul>
   </div>
   <div class = "span20">
-    <div id = "tables">
+    <section id="tables">
+      <div class="page-header">
+        <h1>Tables</h1>
+      </div>
+      
       <%= render "tables_default" %>
       <%= render "tables_hover" %>
-    </div>
+      <%= render "tables_hover_with_default_buttons" %>
+    </section>
   </div>
 </div>
