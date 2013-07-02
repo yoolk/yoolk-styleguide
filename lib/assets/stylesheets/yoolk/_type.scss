@@ -11,3 +11,7 @@ h3 { font-size: $baseFontSize + 3; } // 16px
 h4 { font-size: $baseFontSize + 1; } // 14px
 h5 { font-size: $baseFontSize; }     // 13px
 h6 { font-size: $baseFontSize - 1; } // 12px
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2em;
+}
