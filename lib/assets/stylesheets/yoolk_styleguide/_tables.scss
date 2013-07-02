@@ -11,7 +11,7 @@
     text-align: right;
 
     .btn {
-      @include opacity(0.4);
+      @include opacity(40); //As percentage
     }
   }
 
@@ -19,6 +19,6 @@
 
 .table-hover {
   tr:hover > td.action-fields .btn {
-    @include opacity(1);
+    @include opacity(100);
   }
 }
