@@ -16,9 +16,9 @@ Then, use Bundler to install the gem and its dependencies:
 
     $ bundle install
 
-Last, mount this engine in your routes.rb.
+Last, mount this engine in your `config/routes.rb`.
 
-    mount Yoolk::Styleguide::Engine, at: '/styleguide'
+    mount Yoolk::Styleguide::Engine, at: '/styleguide' unless Rails.env.production?
 
 ## Authors
 
