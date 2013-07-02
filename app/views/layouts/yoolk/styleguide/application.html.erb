@@ -8,7 +8,7 @@
   <!-- Le styles -->
   <%= stylesheet_link_tag    "yoolk", :media => "all" %>
   <%= stylesheet_link_tag    "yoolk/styleguide/docs", :media => "all" %>
-  <%#= stylesheet_link_tag    "yoolk/styleguide/google-code-prettify/prettify", :media => "all" %>
+  <%= stylesheet_link_tag    "yoolk/styleguide/google-code-prettify/prettify", :media => "all" %>
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -28,9 +28,16 @@
   <!-- Le javascript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <%#= javascript_include_tag "jquery" %>
+  <%= javascript_include_tag "jquery" %>
   <%#= javascript_include_tag "bootstrap-scrollspy" %>
 
-  <%#= javascript_include_tag "yoolk/styleguide/google-code-prettify/prettify" %>
+  <%= javascript_include_tag "yoolk/styleguide/google-code-prettify/prettify" %>
+  <script type="text/javascript">
+    (function(jQuery) {
+      jQuery(document).ready( function() {
+        prettyPrint();
+      });
+    }(jQuery))
+  </script>
 </body>
 </html>
