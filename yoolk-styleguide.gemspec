@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 2.13.0"
 
   spec.add_dependency "rails", "~> 3.2"
-  spec.add_dependency "bootstrap-sass", "~> 2.1.0.0"
+  spec.add_dependency "bootstrap-sass", "~> 2.3.2.0"
 end
