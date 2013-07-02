@@ -1,18 +1,22 @@
 <div class = "row">
   <div class = "span4">
     <ul class = "nav nav-list">
+      <li class = "active"><a href = "#typographies">Typography</a></li>
       <li><a href = "#tables">Tables</a></li>
     </ul>
   </div>
+
   <div class = "span20">
+    <%= render "typography" %>
+    
     <section id="tables">
       <div class="page-header">
         <h1>Tables</h1>
       </div>
-      
       <%= render "tables_default" %>
       <%= render "tables_hover" %>
       <%= render "tables_hover_with_default_buttons" %>
     </section>
   </div>
+
 </div>

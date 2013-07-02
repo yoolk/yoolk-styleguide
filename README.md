@@ -6,15 +6,19 @@ A mountable Rails engine where you can view yoolk internal styleguide.
 
 The simplest way to install is to use Bundler.
 
-Add ths gem to your Gemfile:
+Add this gem to your Gemfile:
 
-    group :development do
+    group :assets do
       gem 'yoolk-styleguide', git: 'git://github.com/yoolk/yoolk-styleguide.git'
     end
 
 Then, use Bundler to install the gem and its dependencies:
 
     $ bundle install
+
+Last, mount this engine in your `config/routes.rb`.
+
+    mount Yoolk::Styleguide::Engine, at: '/styleguide' unless Rails.env.production?
 
 ## Authors
 
