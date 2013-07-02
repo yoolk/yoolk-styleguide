@@ -7,19 +7,19 @@
   
   <!-- Le styles -->
   <%= stylesheet_link_tag    "yoolk", :media => "all" %>
-  <%= stylesheet_link_tag    "yoolk/styleguide/docs", :media => "all" %>
-  <%= stylesheet_link_tag    "yoolk/styleguide/google-code-prettify/prettify", :media => "all" %>
+  <%= stylesheet_link_tag    "yoolk_styleguide/docs", :media => "all" %>
+  <%= stylesheet_link_tag    "yoolk_styleguide/google-code-prettify/prettify", :media => "all" %>
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
-    <%= javascript_include_tag "yoolk/styleguide/html5shiv" %>
+    <%= javascript_include_tag "yoolk_styleguide/html5shiv" %>
   <![endif]-->
   
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-  <%= render 'layouts/yoolk/styleguide/header' %>
+  <%= render 'layouts/yoolk_styleguide/header' %>
 
   <div class="container">
     <%= yield %>
@@ -31,7 +31,7 @@
   <%= javascript_include_tag "jquery" %>
   <%#= javascript_include_tag "bootstrap-scrollspy" %>
 
-  <%= javascript_include_tag "yoolk/styleguide/google-code-prettify/prettify" %>
+  <%= javascript_include_tag "yoolk_styleguide/google-code-prettify/prettify" %>
   <script type="text/javascript">
     (function(jQuery) {
       jQuery(document).ready( function() {

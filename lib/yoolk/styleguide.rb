@@ -1,2 +1,1 @@
-require "yoolk/styleguide/version"
-require "yoolk/styleguide/engine"
+require "yoolk_styleguide"

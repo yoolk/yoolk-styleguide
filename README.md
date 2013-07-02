@@ -1,4 +1,4 @@
-# Yoolk::StyleGuide
+# YoolkStyleguide
 
 A mountable Rails engine where you can view yoolk internal styleguide.
 
@@ -18,7 +18,7 @@ Then, use Bundler to install the gem and its dependencies:
 
 Last, mount this engine in your `config/routes.rb`.
 
-    mount Yoolk::Styleguide::Engine, at: '/styleguide' unless Rails.env.production?
+    mount YoolkStyleguide::Engine, at: '/styleguide' unless Rails.env.production?
 
 ## Authors
 

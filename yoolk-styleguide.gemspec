@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'yoolk/styleguide/version'
+require 'yoolk_styleguide/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "yoolk-styleguide"
-  spec.version       = Yoolk::Styleguide::VERSION
+  spec.version       = YoolkStyleguide::VERSION
   spec.authors       = ["vorleak", "chamnap"]
   spec.email         = ["vorleak.chy@gmail.com", "chamnapchhorn@gmail.com"]
   spec.description   = %q{A mountable Rails engine where you can view yoolk internal styleguide.}

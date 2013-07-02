@@ -1,4 +1,4 @@
-Yoolk::Styleguide::Engine.routes.draw do
+YoolkStyleguide::Engine.routes.draw do
   root to: 'home#index'
 
   resources :base_css, only: [ :index ]
