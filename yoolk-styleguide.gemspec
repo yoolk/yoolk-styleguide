@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Yoolk::Styleguide::VERSION
   spec.authors       = ["vorleak", "chamnap"]
   spec.email         = ["vorleak.chy@gmail.com", "chamnapchhorn@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A mountable Rails engine where you can view yoolk internal styleguide.}
+  spec.summary       = %q{A style guide for your Rails application.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
