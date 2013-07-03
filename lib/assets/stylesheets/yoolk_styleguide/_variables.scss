@@ -10,11 +10,11 @@
 
 // Colors
 // -------------------------
-$yoolkGrayDark: #111;
-$yoolkGrayLight: #707070;
-$yoolkBorderColor: #eee;
-$yoolkNewItemColor: #cc0001;
-$yoolkDisableColor: #d5d5d5;
+$yoolkGrayDark:       #111;
+$yoolkGrayLight:      #707070;
+$yoolkBorderColor:    #eee;
+$yoolkNewItemColor:   #cc0001;
+$yoolkDisableColor:   #d5d5d5;
 
 
 // Misc
@@ -30,19 +30,19 @@ $textColor: $yoolkGrayDark;
 
 // Links
 // -------------------------
-$linkColor: $yoolkGrayLight;
+$linkColor:      $yoolkGrayLight;
 $linkColorHover: $linkColor;
 
 
 // Navbar
 // -------------------------
-$navbarBackground: $yoolkThemeMainBackground;
+$navbarBackground:          $yoolkThemeMainBackground;
 $navbarBackgroundHighlight: $yoolkThemeMainBackground;
 
 
 // Dropdown
 $dropdownLinkBackgroundHover: #eee;
-$dropdownLinkColorHover: $yoolkGrayDark;
+$dropdownLinkColorHover:      $yoolkGrayDark;
 
 
 // Typography
@@ -53,17 +53,15 @@ $baseLineHeight:          18px;
 
 // Tables
 // -------------------------
-$yoolkTableHeadColor:     #f8f8f8 !default;
-$tableBackgroundHover:    $yoolkBackgroundHover !default;
-$tableBorder:             $yoolkBorderColor !default;
+$yoolkTableHeadColor:     #f8f8f8;
+$tableBackgroundHover:    $yoolkBackgroundHover;
+$tableBorder:             $yoolkBorderColor;
 
 
 // Pagination
 // -------------------------
-
 $paginationBorder:                    none;
 $paginationActiveBackground:          none;
-
 
 
 

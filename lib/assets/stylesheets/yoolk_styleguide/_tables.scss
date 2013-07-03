@@ -1,5 +1,11 @@
-.table {
+//
+// Tables
+// --------------------------------------------------
 
+
+// BASE TABLES
+// -----------------
+.table {
   margin-bottom: 9px;
 
   th {
@@ -14,9 +20,10 @@
       @include opacity(40); //As percentage
     }
   }
-
 }
 
+// HOVER EFFECT
+// ------------
 .table-hover {
   tr:hover > td.action-fields .btn {
     @include opacity(100);

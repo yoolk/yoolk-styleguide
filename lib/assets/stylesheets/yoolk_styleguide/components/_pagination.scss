@@ -1,7 +1,9 @@
+//
+// Pagination (multiple pages)
+// --------------------------------------------------
 
 .pagination ul {
   @include box-shadow(none);
-
 }
 
 .pagination ul > .active > a,
