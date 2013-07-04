@@ -16,9 +16,11 @@ Then, use Bundler to install the gem and its dependencies:
 
     $ bundle install
 
-Last, mount this engine in your `config/routes.rb`.
+Last, run the Rails generator to configure your app:
 
-    mount YoolkStyleguide::Engine, at: '/styleguide' unless Rails.env.production?
+    $ rails g yoolk_styleguide:install
+
+The generator will install `guard-livereload` and `rack-livereload`.
 
 ## Authors
 
