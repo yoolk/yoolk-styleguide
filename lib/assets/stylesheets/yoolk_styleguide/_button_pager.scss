@@ -1,0 +1,21 @@
+//
+// Button Pager
+// --------------------------------------------------
+
+
+.btn-pager {
+  @extend .btn-group;  
+  display: block;
+}
+
+
+// Alignment
+// -------------------------
+
+.btn-pager-right {
+  text-align: right;
+}
+
+.btn-pager-centered {
+  text-align: center;
+}
