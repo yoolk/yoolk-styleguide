@@ -1,0 +1,12 @@
+ul.arrow-link {
+  list-style-type: none;
+  
+  li {
+    background: image-url('yoolk_styleguide/gray_small_arrow.png') no-repeat scroll 0 2px;
+    padding-left: 15px;
+  }
+
+  li:hover {
+    background: image-url('yoolk_styleguide/black_small_arrow.png') no-repeat scroll 0 2px;
+  } 
+}

@@ -7,25 +7,23 @@
 // -----------------
 .table {
   margin-bottom: 9px;
-
   th {
     background-color: $yoolkTableHeadColor;
   }
-
-  td.action-fields {
+  td.table-btn-group {
     min-width:  80px;
     text-align: right;
-
-    .btn {
-      @include opacity(40); //As percentage
-    }
   }
 }
 
 // HOVER EFFECT
 // ------------
 .table-hover {
-  tr:hover > td.action-fields .btn {
+  //Lower opacity of buttons in table hover mode
+  tr > td.table-btn-group > .btn {
+    @include opacity(40); //As percentage
+  }
+  tr:hover > td.table-btn-group > .btn {
     @include opacity(100);
   }
 }
