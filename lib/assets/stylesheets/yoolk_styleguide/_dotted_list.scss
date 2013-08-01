@@ -14,11 +14,11 @@ ul.dotted-list {
     position: relative;
     
     span.type {
-      background-color: $white;
+      // background-color: $white;
     }
     
     span.value {
-      background-color: $white;
+      // background-color: $white;
       position: absolute;
       right: 0;
       top: 0;
@@ -37,7 +37,7 @@ ul.dotted-list {
 
 ul.dotted-list-indicator {
   li:hover {
-    border-left: 3px solid $yoolkThemeActiveTextColor;
+    border-left: 3px solid $theme-active-text-color;
     font-size: 14px;
 
     span.type {
@@ -53,14 +53,14 @@ ul.dotted-list-indicator {
 
 ul.dotted-list-highlight {
   li:hover {
-    background-color: $yoolkBackgroundHover;
+    background-color: $yoolk-background-hover;
 
     span.type {
-      background-color: $yoolkBackgroundHover;
+      background-color: $yoolk-background-hover;
     }
     
     span.value {
-      background-color: $yoolkBackgroundHover;
+      background-color: $yoolk-background-hover;
     }
   }
 }

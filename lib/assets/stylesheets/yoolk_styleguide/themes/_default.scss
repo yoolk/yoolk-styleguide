@@ -1,11 +1,9 @@
-// Theme
+// Yellow Theme (Default)
 // --------------------------------------------------
 
 
-// Yellow Theme (Default)
-// -------------------------
-$yoolkThemeMainBackground: #fd0;
-$yoolkThemeActiveTextColor: #c60;
-$yoolkThemeHeaderLinkColor: #111;
-$yoolkThemeFooterLineColor: #ff0;
-$yoolkThemeFooterLinkColor: $yoolkThemeHeaderLinkColor;
+$theme-main-background:             #fd0;
+$theme-active-text-color:           #c60;
+$theme-header-link-color:           #111;
+$theme-footer-line-color:           #ff0;
+$theme-footer-link-color:           $theme-header-link-color;

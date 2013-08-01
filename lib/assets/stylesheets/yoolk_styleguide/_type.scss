@@ -5,22 +5,22 @@
 
 // Headings
 // -------------------------
-h1 { font-size: $baseFontSize + 8; } // 21px
-h2 { font-size: $baseFontSize + 5; } // 18px
-h3 { font-size: $baseFontSize + 3; } // 16px
-h4 { font-size: $baseFontSize + 1; } // 14px
-h5 { font-size: $baseFontSize; }     // 13px
-h6 { font-size: $baseFontSize - 1; } // 12px
+// h1 { font-size: $font-size-base + 8; } // 21px
+// h2 { font-size: $font-size-base + 5; } // 18px
+// h3 { font-size: $font-size-base + 3; } // 16px
+// h4 { font-size: $font-size-base + 1; } // 14px
+// h5 { font-size: $font-size-base; }     // 13px
+// h6 { font-size: $font-size-base - 1; } // 12px
 
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.2em;
-}
+// h1, h2, h3, h4, h5, h6 {
+//   line-height: 1.2em;
+// }
 
-a {
-  color: $yoolkGrayLight;
+// a {
+//   color: $yoolk-gray-light;
   
-  &:hover {
-    color: $yoolkGrayDark;
-    text-decoration: none;
-  }
-}
+//   &:hover {
+//     color: $yoolk-gray-drak;
+//     text-decoration: none;
+//   }
+// }

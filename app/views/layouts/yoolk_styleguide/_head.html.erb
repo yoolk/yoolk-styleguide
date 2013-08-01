@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>
+  <% if yield(:title) == "Yoolk Styleguide" %>
+    <%= yield(:title) %>
+  <% elsif %>
+    <%= yield(:title) %> &middot; Yoolk Styleguide
+  <% end %>
+</title>
+
+<!-- Yoolk core CSS -->
+<%= stylesheet_link_tag "yoolk" %>
+
+<!-- Documentation extras -->
+<%= stylesheet_link_tag "yoolk_styleguide/docs", media: "all" %>
+<%= stylesheet_link_tag "yoolk_styleguide/pygments_manni", media: "all" %>
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <%= javascript_include_tag "yoolk_styleguide/html5shiv" %>
+  <%= javascript_include_tag "twitter/bootstrap/respond.min" %>
+<![endif]-->
+
+<!-- Favicons -->
+<%= favicon_link_tag "yoolk_styleguide/favicon.ico" %>
+
+<%= csrf_meta_tags %>

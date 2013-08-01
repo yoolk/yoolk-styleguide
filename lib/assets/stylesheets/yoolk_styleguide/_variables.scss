@@ -10,58 +10,57 @@
 
 // Colors
 // -------------------------
-$yoolkGrayDark:       #111;
-$yoolkGrayLight:      #707070;
-$yoolkBorderColor:    #eee;
-$yoolkNewItemColor:   #cc0001;
-$yoolkDisableColor:   #d5d5d5;
+$yoolk-gray-drak:       #111;
+$yoolk-gray-light:      #707070;
+$yoolk-border-color:    #eee;
+$yoolk-new-item-color:   #cc0001;
+$yoolk-disable-color:   #d5d5d5;
 
 
 // Misc
 // --------------------------
-$yoolkBackgroundHover: #fff4b3;
-$yoolkHiliteTextColor: $yoolkBackgroundHover;
+$yoolk-background-hover: #fff4b3;
+$yoolk-hilite-text-color: $yoolk-background-hover;
 
 
-// Scaffolding
-// -------------------------
-$textColor: $yoolkGrayDark;
+// // Scaffolding
+// // -------------------------
+// $text-color: $yoolk-gray-drak;
 
 
-// Links
-// -------------------------
-$linkColor:      $yoolkGrayLight;
-$linkColorHover: $linkColor;
+// // Links
+// // -------------------------
+// $link-color:      $yoolk-gray-light;
+// $link-color-hover: $link-color;
 
 
-// Navbar
-// -------------------------
-$navbarBackground:          $yoolkThemeMainBackground;
-$navbarBackgroundHighlight: $yoolkThemeMainBackground;
+// // Navbar
+// // -------------------------
+// $navbar-bg:          $theme-main-background;
 
 
-// Dropdown
-$dropdownLinkBackgroundHover: #eee;
-$dropdownLinkColorHover:      $yoolkGrayDark;
+// // Dropdown
+// $dropdown-link-background-hover: #eee;
+// $dropdownLink-color-hover:      $yoolk-gray-drak;
 
 
-// Typography
-// -------------------------
-$baseFontSize:            13px;
-$baseLineHeight:          18px;
+// // Typography
+// // -------------------------
+// $baseFontSize:            13px;
+// $baseLineHeight:          18px;
 
 
 // Tables
 // -------------------------
-$yoolkTableHeadColor:     #f8f8f8;
-$tableBackgroundHover:    $yoolkBackgroundHover;
-$tableBorder:             $yoolkBorderColor;
+// $yoolkTableHeadColor:     #f8f8f8;
+// $tableBackgroundHover:    $yoolk-background-hover;
+// $tableBorder:             $yoolk-border-color;
 
 
 // Pagination
 // -------------------------
-$paginationBorder:                    none;
-$paginationActiveBackground:          none;
+// $paginationBorder:                    none;
+// $paginationActiveBackground:          none;
 
 
 
@@ -71,7 +70,7 @@ $paginationActiveBackground:          none;
 
 // Default 994px grid
 // -------------------------
-$gridColumns:             24;
-$gridColumnWidth:         28px;
-$gridGutterWidth:         14px;
-$gridGutterHeight:        $gridGutterWidth;
+// $gridColumns:             24;
+// $gridColumnWidth:         28px;
+// $gridGutterWidth:         14px;
+// $gridGutterHeight:        $gridGutterWidth;

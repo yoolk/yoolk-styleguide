@@ -1,5 +1,5 @@
 module YoolkStyleguide
-  class BaseCssController < ApplicationController
+  class CssController < ApplicationController
     def index
     end
   end
