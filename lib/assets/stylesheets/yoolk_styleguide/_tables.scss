@@ -3,27 +3,38 @@
 // --------------------------------------------------
 
 
-// BASE TABLES
-// -----------------
-.table {
-  margin-bottom: 9px;
-  th {
-    // background-color: $yoolkTableHeadColor;
-  }
-  td.table-btn-group {
-    min-width:  80px;
-    text-align: right;
-  }
+
+// Baseline styles
+// ---------------
+
+.table > thead {
+  background-color: $table-head-bg; 
 }
 
-// HOVER EFFECT
-// ------------
-.table-hover {
-  //Lower opacity of buttons in table hover mode
-  tr > td.table-btn-group > .btn {
-    @include opacity(40); //As percentage
-  }
-  tr:hover > td.table-btn-group > .btn {
-    @include opacity(100);
-  }
-}
+
+// OLD CODES
+// --------------------------------------------------
+// // BASE TABLES
+// // -----------------
+// .table {
+//   margin-bottom: 9px;
+//   th {
+//     // background-color: $yoolkTableHeadColor;
+//   }
+//   td.table-btn-group {
+//     min-width:  80px;
+//     text-align: right;
+//   }
+// }
+
+// // // HOVER EFFECT
+// // // ------------
+// // .table-hover {
+// //   //Lower opacity of buttons in table hover mode
+// //   tr > td.table-btn-group > .btn {
+// //     @include opacity(40); //As percentage
+// //   }
+// //   tr:hover > td.table-btn-group > .btn {
+// //     @include opacity(100);
+// //   }
+// // }

@@ -3,20 +3,23 @@
 // --------------------------------------------------
 
 
-ul.tags {
-  list-style-type: none;
-}  
 
-ul.tags > li {
-  // @include border-radius(3px);
-  @include inline-block;
-  background-color: #EEEEEE;
-  margin-bottom: 7px;
-  margin-right: 7px;
-  font-size: 11px;
-  line-height: 22px;
-}
+// OLD CODES
+// --------------------------------------------------
+// ul.tags {
+//   list-style-type: none;
+// }  
 
-ul.tags > li > a {
-  padding: 5px 6px;     
-}
+// ul.tags > li {
+//   // @include border-radius(3px);
+//   @include inline-block;
+//   background-color: #EEEEEE;
+//   margin-bottom: 7px;
+//   margin-right: 7px;
+//   font-size: 11px;
+//   line-height: 22px;
+// }
+
+// ul.tags > li > a {
+//   padding: 5px 6px;     
+// }

@@ -1,8 +1,13 @@
 //
 // Mixins
 // --------------------------------------------------
-@mixin inline-block {
-  display: inline-block;
-  *display: inline; /* IE7 inline-block hack */
-  *zoom: 1;
-}
+
+
+
+// OLD CODES
+// --------------------------------------------------
+// @mixin inline-block {
+//   display: inline-block;
+//   *display: inline; /* IE7 inline-block hack */
+//   *zoom: 1;
+// }
