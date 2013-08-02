@@ -1,37 +1,19 @@
 <h2 id="form-control-sizing">Control sizing</h2>
-  <p>Set widths using classes like <code>.input-long</code>.</p>
+<p>Set widths using classes like <code>.input-long</code>.</p>
 
 <h3 id="form-example">Width sizing</h3>
-  <p>Create longer or shorter form controls that match form layout.</p>
+<p>For select and textarea just apply the same class as input.</p>
   
   <div class="bs-example bs-example-control-sizing">
     <input class="form-control input-shorter" type="text" placeholder=".input-shorter">
     <input class="form-control input-short" type="text" placeholder=".input-short">
     <input class="form-control input-long" type="text" placeholder=".input-long">
     <input class="form-control"type="text" placeholder="Default input">
-
-    <select class="form-control input-shorter">
-      <option>.input-shorter</option>
-    </select>
-    <select class="form-control input-short">
-      <option>.input-short</option>
-    </select>
-    <select class="form-control input-long">
-      <option>.input-long</option>
-    </select>
-    <select class="form-control">
-      <option>Default select</option>
-    </select>
   </div>
 
 <%= highlight do %>
-  <input class="form-control input-shorter" type="text" placeholder=".input-shorter">
-  <input class="form-control input-short" type="text" placeholder=".input-short">
-  <input class="form-control input-long" type="text" placeholder=".input-long">
-  <input class="form-control"type="text" placeholder="Default input">
-
-  <select class="form-control input-shorter">...</select>
-  <select class="form-control input-short">...</select>
-  <select class="form-control input-long">...</select>
-  <select class="form-control">...</select>
+<input class="form-control input-shorter" type="text" placeholder=".input-shorter">
+<input class="form-control input-short" type="text" placeholder=".input-short">
+<input class="form-control input-long" type="text" placeholder=".input-long">
+<input class="form-control"type="text" placeholder="Default input">
 <% end %>
