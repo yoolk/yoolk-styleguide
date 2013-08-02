@@ -1,0 +1,41 @@
+<h2 id="form-example">Basic example</h2>
+  <div class="bs-example">
+    <form>
+      <div class="form-group">
+        <label for="input-name">Name</label>
+        <input type="text" class="form-control input-long" id="input-name" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <label for="select-gender">Gender</label>
+        <select class="form-control input-long">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+      <div class="form-actions">
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="button" class="btn btn-default">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+
+<%= highlight do %>
+  <form>
+    <div class="form-group">
+      <label for="input-name">Name</label>
+      <input type="text" class="form-control input-long" id="input-name" placeholder="Enter name">
+    </div>
+    <div class="form-group">
+      <label for="select-gender">Gender</label>
+      <select class="form-control input-long">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn btn-success">Save</button>
+      <button type="button" class="btn btn-default">Cancel</button>
+    </div>
+  </form>
+<% end %>
