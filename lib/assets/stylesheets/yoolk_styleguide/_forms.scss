@@ -1,3 +1,9 @@
+//
+// Forms
+// --------------------------------------------------
+
+
+// Form control sizing
 .input-long {
   width: 440px;
 }
@@ -10,15 +16,8 @@
   width: 130px;
 }
 
-.form-actions {
-  padding: 15px 0;
-  margin-top: 30px;
-  border-top: 1px solid #e5e5e5;
-  @include clearfix(); // Adding clearfix to allow for .pull-right button containers
-
+.form-group {
   .btn {
-    min-width: 84px;
+    min-width: 100px;
   }
 }
-
-
