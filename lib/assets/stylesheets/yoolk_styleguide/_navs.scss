@@ -1,0 +1,26 @@
+//
+// Forms
+// --------------------------------------------------
+
+
+// Filter list
+ul.nav span.count {
+  float: right;
+  font-weight: bold;
+}
+
+ul.small > li > a {
+  padding: 7px 15px;
+  border-radius: 3px;
+}
+
+ul.nav span.color {
+  border: 1px solid #FFFFFF;
+  border-radius: 3px 3px 3px 3px;
+  display: block;
+  float: left;
+  height: 14px;
+  margin-left: -5px;
+  margin-right: 4px;
+  width: 6px;
+}

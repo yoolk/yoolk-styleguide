@@ -24,3 +24,19 @@
 <%= highlight do %>
 <input type="text" disabled="true" placeholder="Disabled input here..." class="form-control">
 <% end %>
+
+<!-- Validation states -->
+<h3>Validation states</h3>
+<div class="bs-example">
+  <div class="form-group has-error">
+    <input type="text" class="form-control" id="inputError">
+    <label class="control-label" for="inputError">Input with error</label>
+  </div>
+</div>
+
+<%= highlight do %>
+<div class="form-group has-error">
+  <label class="control-label" for="inputError">Input with error</label>
+  <input type="text" class="form-control" id="inputError">
+</div>
+<% end %>
