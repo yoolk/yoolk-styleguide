@@ -1,9 +1,14 @@
 //
 // Tags
 // --------------------------------------------------
+
   
 .tag {
   @extend .label;
   color: $tag-color;
-  background: $tag-bg;
+  background-color: $tag-bg;
+
+  a {
+    text-decoration: none;
+  }
 }
