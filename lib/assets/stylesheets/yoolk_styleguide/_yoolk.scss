@@ -13,16 +13,16 @@
 // Core CSS
 @import "type";
 @import "tables";
+@import "forms";
 
 // Components: common
 @import "navs";
+@import "dot_leaders";
 @import "panels";
-@import "forms";
-@import "tag";
+@import "tags";
 
 
 
-// @import "dotted_list";
 // @import "pagination";
 // @import "thumbnails";
 // @import "button_pager";
