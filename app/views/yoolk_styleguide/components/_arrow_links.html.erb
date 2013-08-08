@@ -1,6 +1,20 @@
-<section id="arrow-links">
+<%= content_for :sidenav do %>
+  <li>
+    <a href="#arrow-links">Arrow Links</a>
+    <ul class="nav">
+      <li><a href="#arrow-links-basic">Basic arrow link</a></li>
+      <li><a href="#arrow-links-group">Arrow link group</a></li>
+    </ul>
+  </li>
+<% end %>
+
+
+<!-- Arrow Links
+================================================== -->
+<div class="bs-docs-section">
   <div class="page-header">
-    <h1>Arrow Links</h1>
+    <h1 id="arrow-links">Arrow Links</h1>
   </div>
-  <%= render 'yoolk_styleguide/components/arrow_links/default' %>
-</section>
+  <%= render 'yoolk_styleguide/components/arrow_links/basic' %>
+  <%= render 'yoolk_styleguide/components/arrow_links/group' %>
+</div>
