@@ -8,70 +8,16 @@
 // --------------------------------------------------
 
 
-// Colors
-// -------------------------
-$yoolkGrayDark:       #111;
-$yoolkGrayLight:      #707070;
-$yoolkBorderColor:    #eee;
-$yoolkNewItemColor:   #cc0001;
-$yoolkDisableColor:   #d5d5d5;
-
-
-// Misc
-// --------------------------
-$yoolkBackgroundHover: #fff4b3;
-$yoolkHiliteTextColor: $yoolkBackgroundHover;
-
-
-// Scaffolding
-// -------------------------
-$textColor: $yoolkGrayDark;
-
-
-// Links
-// -------------------------
-$linkColor:      $yoolkGrayLight;
-$linkColorHover: $linkColor;
-
-
-// Navbar
-// -------------------------
-$navbarBackground:          $yoolkThemeMainBackground;
-$navbarBackgroundHighlight: $yoolkThemeMainBackground;
-
-
-// Dropdown
-$dropdownLinkBackgroundHover: #eee;
-$dropdownLinkColorHover:      $yoolkGrayDark;
-
-
-// Typography
-// -------------------------
-$baseFontSize:            13px;
-$baseLineHeight:          18px;
-
 
 // Tables
 // -------------------------
-$yoolkTableHeadColor:     #f8f8f8;
-$tableBackgroundHover:    $yoolkBackgroundHover;
-$tableBorder:             $yoolkBorderColor;
+
+$table-head-bg:                           #fcfcfc; // header background-color
+$table-bg-hover:                          #fff4b3;
 
 
-// Pagination
+// Tags
 // -------------------------
-$paginationBorder:                    none;
-$paginationActiveBackground:          none;
 
-
-
-// GRID
-// --------------------------------------------------
-
-
-// Default 994px grid
-// -------------------------
-$gridColumns:             24;
-$gridColumnWidth:         28px;
-$gridGutterWidth:         14px;
-$gridGutterHeight:        $gridGutterWidth;
+$tag-bg:                                  #eee;
+$tag-color:                               #333;

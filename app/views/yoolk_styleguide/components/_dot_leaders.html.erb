@@ -1,0 +1,25 @@
+<%= content_for :sidenav do %>
+  <li>
+    <a href="#dot-leaders">Dot Leaders</a>
+    <ul class="nav">
+      <li><a href="#dot-leaders-example">Basic example</a></li>
+      <li><a href="#dot-leaders-none-value">None value row class</a></li>
+      <li><a href="#dot-leaders-indicator">Indicator</a></li>
+      <li><a href="#dot-leaders-hover-rows">Hover rows</a></li>
+    </ul>
+  </li>
+<% end %>
+
+<!-- Dot Leaders
+================================================== -->
+<div class="bs-docs-section">
+  <div class="page-header">
+    <h1 id="dot-leaders">Dot Leaders</h1>
+  </div>
+  <%= render 'yoolk_styleguide/components/dot_leaders/example' %>
+  <%= render 'yoolk_styleguide/components/dot_leaders/none_value' %>
+  <h2>Optional classes</h2>
+  <p>Add any of the following classes to the <code>.dot-leaders</code> base class.</p>
+  <%= render 'yoolk_styleguide/components/dot_leaders/indicator' %>
+  <%= render 'yoolk_styleguide/components/dot_leaders/hover_rows' %>
+</div>

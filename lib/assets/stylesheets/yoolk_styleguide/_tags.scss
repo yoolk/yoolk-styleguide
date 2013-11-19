@@ -1,0 +1,21 @@
+//
+// Tags
+// --------------------------------------------------
+
+  
+.tag {
+  display: inline;
+  padding: .25em .6em;
+  font-size: 75%;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  background-color: $tag-bg;
+}
+
+a.tag {
+  text-decoration: none;
+}

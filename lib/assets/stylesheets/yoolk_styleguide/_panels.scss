@@ -1,0 +1,43 @@
+//
+// Panels
+// --------------------------------------------------
+
+
+.panel-heading {
+  position: relative;
+}
+
+.panel-heading-right {
+  position: absolute;
+  right: 15px;
+  top: 7px;
+}
+
+// Flush panel
+// -------------------------------
+.panel-flush {
+  padding: 0;
+
+  .panel-heading {
+    margin: 0;
+  }
+
+  > .table {
+    margin-bottom: 0;
+    thead,
+    tbody,
+    tfoot {
+      > tr {
+        > th:first-child,
+        > td:first-child {
+          padding-left: 15px;
+        }
+
+        > th:last-child,
+        > td:last-child {
+          padding-right: 15px;
+        }
+      }
+    }
+  }
+}

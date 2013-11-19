@@ -1,0 +1,19 @@
+<%= content_for :sidenav do %>
+  <li>
+    <a href="#tags">Tags</a>
+    <ul class="nav">
+      <li><a href="#tags-default">Basic tags</a></li>
+      <li><a href="#tags-link">Link in tags</a></li>
+    </ul>
+  </li>
+<% end %>
+
+<!-- Tags
+================================================== -->
+<div class="bs-docs-section">
+  <div class="page-header">
+    <h1 id="tags">Tags</h1>
+  </div>
+  <%= render 'yoolk_styleguide/components/tags/basic' %>
+  <%= render 'yoolk_styleguide/components/tags/link' %>
+</div>

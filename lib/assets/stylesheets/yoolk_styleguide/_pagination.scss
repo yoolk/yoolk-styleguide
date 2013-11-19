@@ -3,15 +3,18 @@
 // --------------------------------------------------
 
 
-.pagination ul {
-  @include box-shadow(none);
-}
 
-.pagination ul > .active > a,
-.pagination ul > .active > span {
-  color: $yoolkThemeActiveTextColor;
- }
+// OLD CODES
+// --------------------------------------------------
+// .pagination ul {
+//   @include box-shadow(none);
+// }
 
-.pagination ul > li > a:hover {
-  text-decoration: underline;
-}
+// .pagination ul > .active > a,
+// .pagination ul > .active > span {
+//   color: $theme-active-text-color;
+//  }
+
+// .pagination ul > li > a:hover {
+//   text-decoration: underline;
+// }

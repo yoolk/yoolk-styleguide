@@ -1,0 +1,23 @@
+//
+// Forms
+// --------------------------------------------------
+
+
+// inputs
+.input-long {
+  width: 440px;
+}
+
+.input-short {
+  width: 250px;
+}
+
+.input-shorter {
+  width: 130px;
+}
+
+.form-group {
+  .btn {
+    min-width: 100px;
+  }
+}

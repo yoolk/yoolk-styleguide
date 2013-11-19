@@ -1,0 +1,21 @@
+<%= content_for :sidenav do %>
+  <li>
+    <a href="#forms">Forms</a>
+    <ul class="nav">
+      <li><a href="#forms-example">Basic example</a></li>
+      <li><a href="#forms-control-states">Control states</a></li>
+      <li><a href="#forms-control-sizing">Control sizing</a></li>
+    </ul>
+  </li>
+<% end %>
+
+<!-- Forms
+================================================== -->
+<div class="bs-docs-section">
+  <div class="page-header">
+    <h1 id="forms">Forms</h1>
+  </div>
+  <%= render 'yoolk_styleguide/css/forms/example' %>
+  <%= render 'yoolk_styleguide/css/forms/control_states' %>
+  <%= render 'yoolk_styleguide/css/forms/control_sizing' %>
+</div>

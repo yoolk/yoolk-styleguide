@@ -1,12 +1,17 @@
-<div class="row">
-  <div class="span4">
-    <ul class="nav nav-list">
-      <li><a href="#dotted-list">Dotted List</a></li>
-      <li><a href="#pagination">Pagination</a></li>
-    </ul>
-  </div>
-  <div class="span20">
-    <%= render 'dotted_list' %>
-    <%= render 'pagination' %>
-  </div>
-</div>
+<%= content_for :title do %>
+  Components
+<% end %>
+
+<%= content_for :page_description do %>
+  Dozens of reusable components built to provide iconography, dropdowns, navigation, alerts, popovers, and much more.
+<% end %>
+
+<%= render 'navs' %>
+<%= render 'dot_leaders' %>
+<%= render 'panels' %>
+<%= render 'tags' %>
+<%= render 'arrow_links' %>
+
+<%#= render 'pagination' %>
+<%#= render 'thumbnails' %>
+<%#= render 'button_pager' %> 

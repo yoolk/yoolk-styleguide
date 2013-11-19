@@ -1,0 +1,24 @@
+//
+// Arrow Links
+// --------------------------------------------------
+
+a.arrow {
+  background: image-url('yoolk_styleguide/gray_small_arrow.png') no-repeat scroll 0 2px;
+  text-decoration: none;
+  padding-left: 15px;
+
+  &:hover {
+    background: image-url('yoolk_styleguide/black_small_arrow.png') no-repeat scroll 0 2px;
+  }
+}
+
+// arrow link group
+// -------------------------------
+
+.arrow-group {
+  display: inline-block;
+
+  a.arrow {
+    display: block;
+  }
+}
