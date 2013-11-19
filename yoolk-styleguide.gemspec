@@ -26,4 +26,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails",        "~> 3.2.14"
   spec.add_dependency "highlight",    "~> 2.0.0"
+  spec.add_dependency "anjlab-bootstrap-rails", "~> 3.0.2.0"
 end
